@@ -136,13 +136,13 @@ const Footer = () => {
             <Row>
               <Col md={12}>
                 <p className="text-center text-light m-0 pt-2 pb-1">
-                  Copy Rights reserved. Developed by
+                  Copy Rights reserved. Developed by   
                   <a
                     href="https://shanthaswebz.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Shanthas Webz.
+                      Shanthas Webz.
                   </a>
                 </p>
               </Col>

@@ -19,6 +19,10 @@ function App() {
         <Route path="/about" index element={<About />}></Route>
         <Route path="/contact" index element={<Contact />}></Route>
         <Route path="/men" index element={<Men />}></Route>
+        
+
+
+
         <Route path="/women" index element={<Women />}></Route>
         <Route path="/customization" index element={<Customization />}></Route>
         </Routes>

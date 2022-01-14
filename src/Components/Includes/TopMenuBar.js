@@ -37,9 +37,20 @@ const TopMenuBar = () => {
                 <NavDropdown.Item as={Link} to="/men/t-shirts">T-Shirts</NavDropdown.Item>
                 <NavDropdown.Divider />
                 </NavDropdown>
-            <Nav.Link as={Link} to="/women">
-              Women
-            </Nav.Link>
+                <NavDropdown title="Women" id="collasible-nav-dropdown">
+                <NavDropdown.Item as={Link} to="/women">
+                  Women
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item as={Link} to="/women/hoodies">Hoodies</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item as={Link} to="/women/pants">Pants</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item as={Link} to="/women/shorts">Shorts</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item as={Link} to="/women/t-shirts">T-Shirts</NavDropdown.Item>
+                <NavDropdown.Divider />
+                </NavDropdown>
             <Nav.Link as={Link} to="/kids">
               Customization
             </Nav.Link>
