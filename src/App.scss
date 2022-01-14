@@ -1,0 +1,79 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary":    #C92430,
+  "secondary":  #000000,
+  "dark":       #131921,
+  "success":    #198754,
+  "info":       #0DCAF0,
+  "warning":    #a7c227,
+  "danger":     #DC3545,
+  "light":      #F8F9FA,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #C92430;
+$secondary-color: #000000;
+$ternary-color: #F8F9FA;
+$white-color: #ffffff;
+
+
+ #navbar {
+  .nav-link {
+    color: $white-color;
+    background-color: $primary-color;
+    padding-left: 15px;
+    padding-right: 15px;
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+  }
+  .dropdown-menu {
+    background-color: $primary-color;
+  }
+  #collasible-nav-dropdown{
+    &::after {
+      display: none !important; 
+    }
+  }
+  .dropdown-item {
+    color: $white-color;
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+  }
+ }
+
+ #footer {
+   a {
+     color: $white-color;
+     text-decoration: none;
+     &:hover {
+       color: $primary-color;
+      }
+   }
+   p {
+     color: $white-color;
+   }
+ }
+
+ #page-top-header {
+   .custom {
+     text-decoration: none;
+     color: $white-color;
+     &:hover {
+       color: $secondary-color;
+     }
+   }
+ }
+
+ #about-1 {
+   p {
+     text-align: justify;
+   }
+ }
