@@ -22,9 +22,10 @@ const TopMenuBar = () => {
               Contact
             </Nav.Link>
             <NavDropdown title="Men" id="collasible-nav-dropdown">
-            <Nav.Link as={Link} to="/men">
-              Men
-            </Nav.Link>
+                <NavDropdown.Item as={Link} to="/men">
+                  Men
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item as={Link} to="/men/hoodies">Hoodies</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item as={Link} to="/men/pants">Pants</NavDropdown.Item>
