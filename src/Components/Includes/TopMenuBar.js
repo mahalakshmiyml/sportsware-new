@@ -1,13 +1,14 @@
 import React from "react";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Logo from "../../images/logo/logo.png"
 
 const TopMenuBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="sticky-top">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="sticky-top">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Sportsware
+          <Image src={Logo} alt="" className="img-fluid" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
